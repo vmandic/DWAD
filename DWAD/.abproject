@@ -9,7 +9,6 @@
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
-    "1",
     "2"
   ],
   "iOSBackgroundMode": [],
@@ -17,13 +16,12 @@
   "FrameworkVersion": "3.5.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
-    "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
-  "WP8TileTitle": "",
+  "WP8TileTitle": "DAWD",
   "WP8Publisher": "",
   "WP8Capabilities": [],
   "WP8Requirements": [],

@@ -25,9 +25,643 @@
     <Content Include=".abproject" />
     <Content Include=".debug.abproject" />
     <Content Include=".release.abproject" />
+    <Content Include="bower_components\bootstrap\.bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap.css.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\js\bootstrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\js\bootstrap.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\js\npm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\Gruntfile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\grunt\.jshintrc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\grunt\bs-commonjs-generator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\grunt\bs-lessdoc-parser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\grunt\bs-raw-files-generator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\grunt\configBridge.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\grunt\sauce_browsers.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\.jscsrc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\.jshintrc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\affix.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\alert.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\button.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\carousel.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\collapse.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\dropdown.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\modal.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\popover.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\scrollspy.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\tab.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\tooltip.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\js\transition.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\.csscomb.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\.csslintrc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\alerts.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\badges.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\bootstrap.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\breadcrumbs.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\button-groups.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\buttons.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\carousel.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\close.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\code.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\component-animations.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\dropdowns.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\forms.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\glyphicons.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\grid.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\input-groups.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\jumbotron.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\labels.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\list-group.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\media.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\alerts.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\background-variant.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\border-radius.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\buttons.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\center-block.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\clearfix.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\forms.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\gradients.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\grid-framework.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\grid.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\hide-text.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\image.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\labels.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\list-group.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\nav-divider.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\nav-vertical-align.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\opacity.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\pagination.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\panels.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\progress-bar.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\reset-filter.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\resize.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\responsive-visibility.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\size.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\tab-focus.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\table-row.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\text-emphasis.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\text-overflow.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\mixins\vendor-prefixes.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\modals.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\navbar.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\navs.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\normalize.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\pager.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\pagination.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\panels.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\popovers.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\print.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\progress-bars.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\responsive-embed.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\responsive-utilities.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\scaffolding.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\tables.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\theme.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\thumbnails.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\tooltip.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\type.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\utilities.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\variables.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\less\wells.less">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\fastclick\.bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\fastclick\bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\fastclick\lib\fastclick.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\fastclick\lib\fastclick.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\fastclick\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\fastclick\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\.bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\dist\jquery.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\dist\jquery.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\dist\jquery.min.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\MIT-LICENSE.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\jsonp.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\load.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\parseJSON.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\parseXML.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\script.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\var\nonce.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\var\rquery.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\ajax\xhr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\attributes.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\attributes\attr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\attributes\classes.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\attributes\prop.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\attributes\support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\attributes\val.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\callbacks.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\core.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\core\access.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\core\init.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\core\parseHTML.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\core\ready.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\core\var\rsingleTag.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\addGetHookIf.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\curCSS.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\defaultDisplay.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\hiddenVisibleSelectors.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\swap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\var\cssExpand.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\var\getStyles.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\var\isHidden.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\var\rmargin.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\css\var\rnumnonpx.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\data.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\data\accepts.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\data\Data.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\data\var\data_priv.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\data\var\data_user.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\deferred.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\deprecated.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\dimensions.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\effects.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\effects\animatedSelector.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\effects\Tween.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\event.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\event\ajax.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\event\alias.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\event\support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\exports\amd.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\exports\global.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\intro.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\jquery.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\manipulation.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\manipulation\support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\manipulation\var\rcheckableType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\manipulation\_evalUrl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\offset.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\outro.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\queue.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\queue\delay.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\selector-native.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\selector-sizzle.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\selector.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\serialize.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\sizzle\dist\sizzle.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\sizzle\dist\sizzle.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\sizzle\dist\sizzle.min.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\traversing.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\traversing\findFilter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\traversing\var\rneedsContext.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\arr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\class2type.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\concat.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\hasOwn.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\indexOf.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\pnum.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\push.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\rnotwhite.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\slice.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\strundefined.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\var\toString.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\jquery\src\wrap.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
+    <Content Include="css\index.less" />
     <Content Include="index.html" />
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
@@ -64,9 +698,11 @@
     <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
-    <Content Include="css\index.css" />
     <Content Include="img\cordova.png" />
     <Content Include="img\logo.png" />
+    <Content Include="js\app.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="js\index.js" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +716,42 @@
     <Folder Include="App_Resources\WP8\" />
     <Folder Include="App_Resources\WP8\Tiles\" />
     <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="bower_components\" />
+    <Folder Include="bower_components\bootstrap\" />
+    <Folder Include="bower_components\bootstrap\dist\" />
+    <Folder Include="bower_components\bootstrap\dist\css\" />
+    <Folder Include="bower_components\bootstrap\dist\fonts\" />
+    <Folder Include="bower_components\bootstrap\dist\js\" />
+    <Folder Include="bower_components\bootstrap\fonts\" />
+    <Folder Include="bower_components\bootstrap\grunt\" />
+    <Folder Include="bower_components\bootstrap\js\" />
+    <Folder Include="bower_components\bootstrap\less\" />
+    <Folder Include="bower_components\bootstrap\less\mixins\" />
+    <Folder Include="bower_components\fastclick\" />
+    <Folder Include="bower_components\fastclick\lib\" />
+    <Folder Include="bower_components\jquery\" />
+    <Folder Include="bower_components\jquery\dist\" />
+    <Folder Include="bower_components\jquery\src\" />
+    <Folder Include="bower_components\jquery\src\ajax\" />
+    <Folder Include="bower_components\jquery\src\ajax\var\" />
+    <Folder Include="bower_components\jquery\src\attributes\" />
+    <Folder Include="bower_components\jquery\src\core\" />
+    <Folder Include="bower_components\jquery\src\core\var\" />
+    <Folder Include="bower_components\jquery\src\css\" />
+    <Folder Include="bower_components\jquery\src\css\var\" />
+    <Folder Include="bower_components\jquery\src\data\" />
+    <Folder Include="bower_components\jquery\src\data\var\" />
+    <Folder Include="bower_components\jquery\src\effects\" />
+    <Folder Include="bower_components\jquery\src\event\" />
+    <Folder Include="bower_components\jquery\src\exports\" />
+    <Folder Include="bower_components\jquery\src\manipulation\" />
+    <Folder Include="bower_components\jquery\src\manipulation\var\" />
+    <Folder Include="bower_components\jquery\src\queue\" />
+    <Folder Include="bower_components\jquery\src\sizzle\" />
+    <Folder Include="bower_components\jquery\src\sizzle\dist\" />
+    <Folder Include="bower_components\jquery\src\traversing\" />
+    <Folder Include="bower_components\jquery\src\traversing\var\" />
+    <Folder Include="bower_components\jquery\src\var\" />
     <Folder Include="css\" />
     <Folder Include="img\" />
     <Folder Include="js\" />
