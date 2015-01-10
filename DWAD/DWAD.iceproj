@@ -662,7 +662,22 @@
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
     <Content Include="css\index.less" />
+    <Content Include="img\dci-logo.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\dwad-logo.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\splash.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="index.html" />
+    <Content Include="views\dwad-bestbuy-view.html" />
+    <Content Include="views\dwad-program-view.html" />
+    <Content Include="views\restaurant-locations-view.html" />
+    <Content Include="views\restaurant-partners-view.html" />
+    <Content Include="views\main-menu-view.html" />
+    <Content Include="views\wine-partners-view.html" />
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
@@ -755,6 +770,7 @@
     <Folder Include="css\" />
     <Folder Include="img\" />
     <Folder Include="js\" />
+    <Folder Include="views\" />
     <Folder Include="Plugins\" />
   </ItemGroup>
   <Import Project="$(IceniumTargets)Build.targets" />

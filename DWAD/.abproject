@@ -4,7 +4,7 @@
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.DWAD",
   "DisplayName": "DWAD",
-  "Author": "",
+  "Author": "vmandic",
   "Description": "DWAD",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
@@ -16,7 +16,7 @@
   "FrameworkVersion": "3.5.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
-    "Landscape"
+    "Portrait"
   ],
   "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
