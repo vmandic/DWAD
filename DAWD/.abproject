@@ -1,0 +1,37 @@
+{
+  "ProjectName": "DAWD",
+  "ProjectGuid": "215b6439-4e41-4d48-a5f2-ab942dc4c427",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.DAWD",
+  "DisplayName": "DAWD",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{6e4a3c6d-5db3-4174-b4f8-2d1a98b5edf2}",
+  "WP8ProductID": "{67661bcb-ea80-4d92-866e-daea2558c344}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
