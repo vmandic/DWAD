@@ -1,5 +1,8 @@
+var app = app || {},
+    $viewContainer = $("#view-container");
+
 (function () {
-    var app = {
+    app = {
         // Application Constructor
         initialize: function () {
             this.bindEvents();
@@ -40,6 +43,9 @@
 
             // hide the splashscreen
             navigator.splashscreen.hide();
+
+            // init the base controlller
+            initBaseController();
         },
 
         // Triggered when the app is sent to the background, e.g. a phonecall interuption or the user swaps to another app
@@ -100,7 +106,34 @@
             device.isWindowsPhone = function () {
                 return device.platform === device.platforms.wp;
             };
+
+            app.views = {
+                bestbuy:        "dwad-bestbuy",
+                program:        "dwad-program",
+                menu:           "main-menu",
+                locations:      "restaurant-locations",
+                rpartners:      "restaurant-partners",
+                wpartners:      "wine-partners"
+            };
+        },
+
+        loadView: function (viewName) {
+            // clear the view container DOM
+            $($viewContainer.children()).remove();
+
+            // load the new view html
+            $.get("views/{0}-view.html".format(viewName), function (html) {
+                console.info("APP INFO: View '{0}-view.html' loaded.".format(viewName));
+                $viewContainer.append(html);
+
+                // load the new controller js
+                $.get("js/controllers/{0}-controller.js".format(viewName), function (js) {
+                    console.info("APP INFO: Controller '{0}-controller.js' loaded.".format(viewName));
+                });
+            });
+
         }
+
     };
 
     // initialize the app

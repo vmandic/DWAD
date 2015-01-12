@@ -1,9 +1,7 @@
-
 // Retrieves the viewport width
 function getVW() {
     return document.documentElement.clientWidth;
 }
-
 
 // Retrieves the viewport height
 function getVH() {
@@ -24,6 +22,28 @@ function parseBool(str) {
     }
 
     return (parseInt(str) > 0);
+}
+
+function showViewport() {
+    var vp = document.getElementById("vp");
+
+    if (!vp) {
+        var elem = document.createElement("div");
+        elem.id = "vp";
+        document.body.appendChild(elem);
+    }
+
+    window.onresize = calcViewport;
+    calcViewport();
+}
+
+function hideViewport() {
+    var vp = document.getElementById("vp");
+    vp && vp.removeNode();
+}
+
+function calcViewport() {
+    document.getElementById("vp").innerHTML = "W:{0} H:{1}".format(getVW(), getVH());
 }
 
 // string format implementation

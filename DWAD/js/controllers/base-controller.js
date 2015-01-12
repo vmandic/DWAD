@@ -1,5 +1,10 @@
+// base-controller.js
+
+function initBaseController() {
+    app.loadView(app.views.menu);
+}
+
 (function () {
-    $("#main-menu li").on("click", function () {
-        alert("Uskoro... :-)");
-    });
+    showViewport();
 }());
+
