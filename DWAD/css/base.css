@@ -114,7 +114,7 @@ input[type=button]:hover {
   box-sizing: border-box;
 }
 #main-menu-view #main-menu-content {
-  height: 62%;
+  height: 60%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -157,7 +157,7 @@ input[type=button]:hover {
     font-size: 100%;
   }
 }
-@media only screen and (min-device-width: 480px) and (max-device-width: 854px) and (orientation: portrait) {
+@media only screen and (min-device-width: 480px) and (max-device-width: 853px) and (orientation: portrait) {
   body {
     font-size: 150%;
   }

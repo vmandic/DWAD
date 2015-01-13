@@ -78,6 +78,7 @@ var app = app || {},
         // Android and Windows Phone only*
         // Triggered when the back button on the device is pressed
         onBackButton: function () {
+            alert("Back pressed!");
             console.info("APP EVENT: Back button pressed.");
 
             if (app.navigationHistory.length > 0) {
