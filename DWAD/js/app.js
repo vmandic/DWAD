@@ -22,6 +22,7 @@ var app = app || {},
             document.addEventListener("resume", this.onResume, false);
             document.addEventListener("online", this.onOnline, false);
             document.addEventListener("offline", this.onOffline, false);
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
         },
 
         bindDeviceSpecificEvents: function () {

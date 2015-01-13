@@ -18,8 +18,10 @@
 
     <!-- legacy preferences -->
     <!--
-    <preference name="UIWebViewBounce" value="false" />
+
     -->
+
+    <preference name="UIWebViewBounce" value="false" />
 
     <content src="index.html" />
 
