@@ -81,12 +81,12 @@ var app = app || {},
         onBackButton: function () {
             console.info("APP EVENT: Back button pressed.");
 
-            if (app.navigationHistory.length > 1) {
+            if (app.navigationHistory.length > 0) {
                 app.navigationHistory.pop();
                 app.navigateTo(app.navigationHistory.last(), false);
             } else {
                 // exits the app if the user confirms true
-                confirm("Sigurno izlazite? :-(") && navigator.app.exitApp();
+                confirm("Želite li sigurno izaæi?") && navigator.app.exitApp();
             }
         },
 
