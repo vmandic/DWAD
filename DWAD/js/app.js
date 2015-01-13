@@ -22,7 +22,6 @@ var app = app || {},
             document.addEventListener("resume", this.onResume, false);
             document.addEventListener("online", this.onOnline, false);
             document.addEventListener("offline", this.onOffline, false);
-            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
         },
 
         bindDeviceSpecificEvents: function () {
@@ -81,12 +80,12 @@ var app = app || {},
         onBackButton: function () {
             console.info("APP EVENT: Back button pressed.");
 
-            if (app.navigationHistory.length > 0) {
+            if (app.navigationHistory.length > 1) {
                 app.navigationHistory.pop();
                 app.navigateTo(app.navigationHistory.last(), false);
             } else {
                 // exits the app if the user confirms true
-                confirm("Želite li sigurno izaæi?") && navigator.app.exitApp();
+                confirm("Sigurno izlazite? :-(") && navigator.app.exitApp();
             }
         },
 
