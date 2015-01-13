@@ -1,7 +1,7 @@
 // base-controller.js
 
 function initBaseController() {
-    app.loadView(app.views.menu);
+    app.navigateTo(app.views.menu, true);
 }
 
 (function () {

@@ -2,7 +2,7 @@
   "ProjectName": "DWAD",
   "ProjectGuid": "fb7d3c76-e5bf-40c5-bd1d-d42ad9cdf22e",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.DWAD",
+  "AppIdentifier": "com.vmandic.DWAD",
   "DisplayName": "DWAD",
   "Author": "vmandic",
   "Description": "DWAD",
@@ -23,7 +23,12 @@
   "Framework": "Cordova",
   "WP8TileTitle": "DAWD",
   "WP8Publisher": "",
-  "WP8Capabilities": [],
+  "WP8Capabilities": [
+    "ID_CAP_IDENTITY_DEVICE",
+    "ID_CAP_LOCATION",
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
   "WP8Requirements": [],
   "WP8PublisherID": "{cc6dc425-a0f5-49d8-935d-8f398463af55}",
   "WP8ProductID": "{fdebbce2-22d9-4d06-a3cf-568612acc125}",

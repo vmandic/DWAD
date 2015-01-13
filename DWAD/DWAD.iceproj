@@ -25,6 +25,10 @@
     <Content Include=".abproject" />
     <Content Include=".debug.abproject" />
     <Content Include=".release.abproject" />
+    <Content Include="App_Resources\Android\xml\config.xml" />
+    <Content Include="App_Resources\iOS\config.xml" />
+    <Content Include="App_Resources\iOS\Info.plist" />
+    <Content Include="App_Resources\WP8\config.xml" />
     <Content Include="bower_components\bootstrap\.bower.json">
       <SubType>Content</SubType>
     </Content>
@@ -661,8 +665,21 @@
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
+    <Content Include="css\base.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\base.css.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\base.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\platform_specific\Android.less" />
     <Content Include="css\base.less" />
     <Content Include="css\base.responsive.less" />
+    <Content Include="css\platform_specific\iOS.less" />
+    <Content Include="css\platform_specific\Win32NT.less" />
+    <Content Include="css\variables.less" />
     <Content Include="img\dci-logo.svg">
       <SubType>Content</SubType>
     </Content>
@@ -673,7 +690,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="index.html" />
+    <Content Include="js\controllers\dwad-bestbuy-controller.js" />
+    <Content Include="js\controllers\dwad-program-controller.js" />
     <Content Include="js\controllers\main-menu-controller.js" />
+    <Content Include="js\controllers\restaurant-locations-controller.js" />
+    <Content Include="js\controllers\restaurant-partners-controller.js" />
+    <Content Include="js\controllers\wine-partners-controller.js" />
     <Content Include="js\extensions.js" />
     <Content Include="views\dwad-bestbuy-view.html" />
     <Content Include="views\dwad-program-view.html" />
@@ -730,6 +752,7 @@
     <Folder Include="App_Resources\Android\drawable-ldpi\" />
     <Folder Include="App_Resources\Android\drawable-mdpi\" />
     <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\Android\xml\" />
     <Folder Include="App_Resources\iOS\" />
     <Folder Include="App_Resources\WP8\" />
     <Folder Include="App_Resources\WP8\Tiles\" />
@@ -771,6 +794,7 @@
     <Folder Include="bower_components\jquery\src\traversing\var\" />
     <Folder Include="bower_components\jquery\src\var\" />
     <Folder Include="css\" />
+    <Folder Include="css\platform_specific\" />
     <Folder Include="img\" />
     <Folder Include="js\" />
     <Folder Include="js\controllers\" />
