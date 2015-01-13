@@ -8,6 +8,10 @@ var app = app || {},
             this.bindEvents();
         },
 
+        options: {
+            transitionFadeTimeMiliseconds: 300
+        },
+
         // Bind Event Listeners
         //
         // Bind any events that are required on startup. Common events are:
@@ -41,6 +45,9 @@ var app = app || {},
             // bind device specific events, needs access to the "device" object
             app.bindDeviceSpecificEvents();
 
+            // load css and js specific for a current platform
+            app.loadPlatformSpecificOptions();
+
             // hide the splashscreen
             navigator.splashscreen.hide();
 
@@ -72,6 +79,14 @@ var app = app || {},
         // Triggered when the back button on the device is pressed
         onBackButton: function () {
             console.info("APP EVENT: Back button pressed.");
+
+            if (app.navigationHistory.length > 0) {
+                app.navigationHistory.pop();
+                app.navigateTo(app.navigationHistory.last(), false);
+            } else {
+                // exits the app if the user confirms true
+                confirm("Želite li sigurno izaæi?") && navigator.app.exitApp();
+            }
         },
 
         // Android only*
@@ -84,6 +99,10 @@ var app = app || {},
         // Triggered when the search button on the device is pressed
         onSearchButton: function () {
             console.info("APP EVENT: Search button pressed.");
+        },
+
+        loadPlatformSpecificOptions: function () {
+            $("head").append("<link rel='stylesheet' type='text/css' href='css/platform_specific/{0}.min.css' />".format(device.platform));
         },
 
         applyExtensions: function () {
@@ -115,25 +134,35 @@ var app = app || {},
                 rpartners:      "restaurant-partners",
                 wpartners:      "wine-partners"
             };
+
+            app.navigationHistory = [];
         },
 
-        loadView: function (viewName) {
+        navigateTo: function (viewName, pushToNavigationHistory) {
             // clear the view container DOM
-            $($viewContainer.children()).remove();
+            $viewContainer.fadeOut(app.options.transitionFadeTimeMiliseconds/2, function () {
 
-            // load the new view html
-            $.get("views/{0}-view.html".format(viewName), function (html) {
-                console.info("APP INFO: View '{0}-view.html' loaded.".format(viewName));
-                $viewContainer.append(html);
+                $($viewContainer.children()).remove();
 
-                // load the new controller js
-                $.get("js/controllers/{0}-controller.js".format(viewName), function (js) {
-                    console.info("APP INFO: Controller '{0}-controller.js' loaded.".format(viewName));
+                // load the new view html
+                $.get("views/{0}-view.html".format(viewName), function (html) {
+                    console.info("APP INFO: View '{0}-view.html' loaded.".format(viewName));
+                    $viewContainer.append(html);
+
+                    // load the new controller js
+                    $.get("js/controllers/{0}-controller.js".format(viewName), function (js) {
+                        console.info("APP INFO: Controller '{0}-controller.js' loaded.".format(viewName));
+                    });
+
+                    pushToNavigationHistory && app.navigationHistory.push(viewName);
+                    $viewContainer.fadeIn(app.options.transitionFadeTimeMiliseconds / 2);
                 });
             });
+        },
 
+        navigateBack: function(){
+            this.onBackButton();
         }
-
     };
 
     // initialize the app
