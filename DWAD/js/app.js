@@ -141,7 +141,7 @@ var app = app || {},
 
         navigateTo: function (viewName, pushToNavigationHistory) {
             // clear the view container DOM
-            $viewContainer.fadeOut(app.options.transitionFadeTimeMiliseconds/2, function () {
+            //$viewContainer.fadeOut(app.options.transitionFadeTimeMiliseconds/2, function () {
 
                 $($viewContainer.children()).remove();
 
@@ -156,9 +156,9 @@ var app = app || {},
                     });
 
                     pushToNavigationHistory && app.navigationHistory.push(viewName);
-                    $viewContainer.fadeIn(app.options.transitionFadeTimeMiliseconds / 2);
+                    //$viewContainer.fadeIn(app.options.transitionFadeTimeMiliseconds / 2);
                 });
-            });
+            //});
         },
 
         navigateBack: function(){
